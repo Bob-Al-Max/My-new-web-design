@@ -1,0 +1,78 @@
+.my-nav{
+    background:#444 !important;
+}
+
+.nav-link{
+    color: #ffffff !important;
+}
+
+.nav-item:hover{
+    background: grey !important;
+}
+
+
+.section-footer{
+    background: #3C414C;
+    padding-top:30px;
+}
+
+.footer-title{
+
+    color:#fff;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.footer-ul-bl li {
+color:#fff;
+}
+
+footer{
+    background:#000;
+    color:#fff;
+}
+
+.footer-bottom{
+    
+    color:#fff;
+    padding:25px;
+}
+
+.mail-header-bl{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.phone-header-bl{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.callback-header-bl{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-top-r{
+    background:#e2e6e9 !important;
+   border-bottom-left-radius: 30px;
+}
+.nav-top-r li:hover{
+    background:none !important;
+    
+}
+
+.nav-top-r a{
+   
+color:#444 !important;
+font-size:15px;
+text-decoration: underline !important;
+}
+
+.welcome-header-txt{
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top:10px;
+    text-transform: uppercase;
+}
