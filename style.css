@@ -76,3 +76,7 @@ text-decoration: underline !important;
     margin-top:10px;
     text-transform: uppercase;
 }
+
+body{
+    background: #fff;
+}
