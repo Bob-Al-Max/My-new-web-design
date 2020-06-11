@@ -85,3 +85,19 @@ body{
 h1{
     font-family: sans-serif;
 }
+
+
+.page-content{
+    margin-top: 50px;
+
+}
+
+.servise-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.servise-img{
+
+    height:200px;
+}
