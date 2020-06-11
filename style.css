@@ -79,4 +79,9 @@ text-decoration: underline !important;
 
 body{
     background: #fff;
+    color:#000;
+}
+
+h1{
+    font-family: sans-serif;
 }
