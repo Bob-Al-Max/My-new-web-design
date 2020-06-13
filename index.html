@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
 <style>
     .container{
       
@@ -16,31 +17,31 @@
 <body>
 
 <header>
-<div class="container-fluid">
+<div class="container-fluid header-cont">
 
   
   <div class="row">
     <div class="col-md-3">
-      <img width="280" src="https://www.kindpng.com/picc/m/137-1372491_g-web-developers-web-developer-logo-png-transparent.png" alt="">
+      <img width="280" src="images/logo.png" alt="">
     </div>
     <div class="col-md-9">
       <div class="row">
         <div class="col-md-4">
-            <h4 class="welcome-header-txt"><span style="color:#dc3545">Добро пожаловать</span> на наш сайт!</h4>
+            <h4 class="welcome-header-txt"><span style="color:#17A2B8">Добро пожаловать</span><br> на наш сайт!</h4>
         </div>
         <div class="col-md-8">
           <ul class="nav nav-pills nav-fill nav-top-r">
             <li class="nav-item">
-              <a class="nav-link" href="#"><img width="17" src="images/phone-ringing.png" alt="">  О нас</a>
+              <a class="nav-link" href="#">  О нас</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img width="17" src="images/phone-ringing.png" alt=""> Портфолио</a>
+              <a class="nav-link" href="#"> Портфолио</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img width="17" src="images/phone-ringing.png" alt=""> Статьи</a>
+              <a class="nav-link" href="#"> Статьи</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img width="17" src="images/phone-ringing.png" alt=""> Новости</a>
+              <a class="nav-link" href="#"> Новости</a>
             </li>
            
           </ul>
@@ -53,7 +54,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="mail-header-bl">
-            <img src="https://driveinparis.com/wp-content/uploads/2013/11/mail_icon.png" width="40" alt="..."> myemail@mail.com
+            <img src="images/email.png" width="40" alt="..."> myemail@mail.com
           </div>
           
         </div>
@@ -62,7 +63,7 @@
         <div class="col-md-4">
           
             <div class="phone-header-bl">
-              <img width="40" src="https://lh3.googleusercontent.com/proxy/irk81QZFhQ4BbZInFv7Q9xrwBQAdM-dmjiB6q4QLgllKeY83ETonCe9-LkZ2lywcwJbk7_SZ1M6UIMuMJk8XJesd2PtxVJjlEukhuXTj2XdpS_Xqa8HhR0m1xIY6jXSFMOI" alt=""> +7(985) 615-95-65
+              <img width="40" src="images/call.png" alt=""> +7(985) 615-95-65
             </div>
             
           
@@ -85,40 +86,25 @@
 
   <div class="row">
     <div class="col-md-12">
-      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-        <div class="d-flex w-50 order-0">
-            <a class="navbar-brand mr-1" href="#">Bootstrap 4</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Главная <span class="sr-only">Главная</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="//codeply.com">Цены</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+      <nav style="padding:0px" class="navbar navbar-expand-md bg-dark my-nav">
+        <a style="display:none" class="navbar-brand" href="#">my website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-            </ul>
-        </div>
-        <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">always show</span>
-    </nav>
+              <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact us</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
     </div>
   </div>
 </div>
@@ -178,23 +164,36 @@
        <div class="page-content">
         <div class="row">
             <div class="col-sm-3 col-6 text-center">
-              <img src="images/001-graphic.png" class="img-fluid" width="64" alt="">
-              <h3 class="servise-title text-center">Продвижение сайтов</h3>
+              <div class="servise-top">
+                <img src="images/001-graphic.png" class="img-fluid" width="64" alt="">
+                <h3 class="servise-title text-center">Продвижение сайтов</h3>
+              </div>
+    
+              
             </div>
 
             <div class="col-sm-3 col-6 text-center">
-              <img src="images/002-seo.png" class="img-fluid" width="64" alt="">
+              <div class="servise-top">
+                <img src="images/002-seo.png" class="img-fluid" width="64" alt="">
               <h3 class="servise-title text-center">Создание сайтов</h3>
+              </div>
+              
             </div>
 
             <div class="col-sm-3 col-6 text-center">
-              <img src="images/004-audit.png" class="img-fluid" alt="">
+              <div class="servise-top">
+                <img src="images/004-audit.png" class="img-fluid" alt="">
               <h3 class="servise-title text-center">Аудит сайта</h3>
+              </div>
+              
             </div>
 
             <div class="col-sm-3 col-6 text-center">
-              <img src="images/005-semantic-web.png" class="img-fluid" alt="">
-              <h3 class="servise-title text-center">Составление семантического ядра</h3>
+              <div class="servise-top">
+                <img src="images/005-semantic-web.png" class="img-fluid" alt="">
+              <h3 class="servise-title text-center">Семантического ядро</h3>
+              </div>
+              
             </div>
         </div>
        </div>
@@ -204,11 +203,11 @@
 </section>
 
 <section>
-  <div class="container">
+  <div style="margin-top:40px" class="container">
     <div class="row">
       <div class="col-12">
         <div class="content-text">
-          <h1>Закажите продвижение сайта и получите реальный результат</h1>
+          <h1 class="text-center">Закажите продвижение сайта и получите реальный результат</h1>
   
           <p>
             Успешный бизнес невозможен без стабильного потока клиентов, а сайт является эффективным каналом их привлечения. Чтобы клиенты с легкостью находили компанию в интернете, необходимо продвижение сайта в поисковых системах.
@@ -328,12 +327,12 @@
                              <img src="images/callback-circle.png" width="80" alt="">
                            </div>
                            <div class="col-md-10">
-                            <h3 style="color:#fff">Если Вы хотите узнать больше о наших услугах напишите нам</h3>
+                            <h3 style="color:#fff;text-transform: uppercase;font-size: 27px;">Если Вы хотите узнать больше о наших услугах напишите нам <br> <button type="button" class="btn btn-warning">Написать нам</button></h3>
                            </div>
                          </div>
                       </div>
-                      <div class="col-md-3">
-                        <button type="button" class="btn btn-warning">Заказать звонок</button>
+                      <div style="padding-top:20px" class="col-md-3">
+                        <span style="color:#fff;font-size: 25px;font-weight: bold;padding:10px;border:2px solid #fff;">+7(985) 615-95-65</span>
                       </div>
                     </div>
                         
