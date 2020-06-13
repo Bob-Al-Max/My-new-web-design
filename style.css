@@ -12,25 +12,43 @@
 
 
 .section-footer{
-    background: #3C414C;
+    background: #fff;
     padding-top:30px;
 }
 
 .footer-title{
 
-    color:#fff;
+    color:#555;
     font-size: 20px;
     font-weight: bolder;
     text-transform: uppercase;
+    margin-bottom:10px;
 }
 
 .footer-ul-bl li {
-color:#fff;
+color:#17A2B8;
+}
+
+.footer-ul-bl li a{
+    color:#555;
+    font-size: 16px;
+}
+
+
+
+.footer-ul-bl {
+    list-style-type: square !important; 
+    font-size: 16px;
+    
 }
 
 footer{
-    background:#000;
-    color:#fff;
+    background:#fff;
+    border-top:1px solid #138496;
+    color:#555;
+    font-size: 16px;
+    padding: 0px;
+   margin:0px;
 }
 
 .footer-bottom{
@@ -80,7 +98,9 @@ text-decoration: underline !important;
 body{
     background: #fff;
     color:#000;
+    font-size:17px;
 }
+
 
 h1{
     font-family: sans-serif;
@@ -97,7 +117,41 @@ h1{
     font-weight: bold;
 }
 
-.servise-img{
 
-    height:200px;
+.advantages{
+    background:#eff1f1;
+    padding-bottom:50px
+}
+
+.footer-news-li{
+    margin-bottom: 20px;
+}
+
+body > section.section-footer > div > div > div > ul{
+
+    padding-left:20px;
+}
+
+.flist{
+    padding-left:20px;
+
+}
+
+.fnlist{
+    padding-left: 4px !important;
+}
+
+.fnlist li {
+    font-size:16px;
+    
+}
+
+.fnlist li a{
+    color:#555;
+}
+
+#callus{
+    background:#17A2B8;
+    padding-top:40px;
+    padding-bottom:40px;
 }

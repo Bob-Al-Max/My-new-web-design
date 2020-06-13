@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="font/flaticon.css">
 <style>
     .container{
       
@@ -85,35 +85,40 @@
 
   <div class="row">
     <div class="col-md-12">
-      <nav style="padding:0px;margin:0px;" class="navbar navbar-expand-lg navbar-light my-nav">
-        <a style="display:none" class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="nav nav-fill">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="d-flex w-50 order-0">
+            <a class="navbar-brand mr-1" href="#">Bootstrap 4</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-      </nav>
+        <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Главная <span class="sr-only">Главная</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="//codeply.com">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+            </ul>
+        </div>
+        <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">always show</span>
+    </nav>
     </div>
   </div>
 </div>
@@ -172,23 +177,23 @@
    
        <div class="page-content">
         <div class="row">
-            <div class="col-sm-3 col-6">
-              <img src="images/seo.png" class="img-fluid servise-img" alt="">
+            <div class="col-sm-3 col-6 text-center">
+              <img src="images/001-graphic.png" class="img-fluid" width="64" alt="">
               <h3 class="servise-title text-center">Продвижение сайтов</h3>
             </div>
 
-            <div class="col-sm-3 col-6">
-              <img src="images/web-development.png" class="img-fluid servise-img" alt="">
+            <div class="col-sm-3 col-6 text-center">
+              <img src="images/002-seo.png" class="img-fluid" width="64" alt="">
               <h3 class="servise-title text-center">Создание сайтов</h3>
             </div>
 
-            <div class="col-sm-3 col-6">
-              <img src="images/seo-audit.jpg" class="img-fluid servise-img" alt="">
+            <div class="col-sm-3 col-6 text-center">
+              <img src="images/004-audit.png" class="img-fluid" alt="">
               <h3 class="servise-title text-center">Аудит сайта</h3>
             </div>
 
-            <div class="col-sm-3 col-6">
-              <img src="images/semantic.png" class="img-fluid servise-img" alt="">
+            <div class="col-sm-3 col-6 text-center">
+              <img src="images/005-semantic-web.png" class="img-fluid" alt="">
               <h3 class="servise-title text-center">Составление семантического ядра</h3>
             </div>
         </div>
@@ -254,53 +259,151 @@
     </div>
   </div>
 </section>
+
+
+<section class="advantages">
+  <div class="container">
+    <h2 class="text-center" style="margin-bottom:40px">Наши преимущества</h2>
+    <div class="row">
+      <div class="col-6">
+        <div class="media">
+          <img width="50" src="images/experience.png" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+         
+            <p class="mb-0">Более 7 лет в программировании и продвижении</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="col-6">
+        <div class="media">
+          <img width="50" src="images/book.png" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+         
+            <p class="mb-0">Полная прозрачность реализации проекта и его всесторонний контроль</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div style="height:40px" class="w-100"></div>
+    <div class="row">
+      <div class="col-6">
+        <div class="media">
+          <img width="50" width="70" src="images/zoom.png" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+         
+            <p class="mb-0">Особый подход к каждому заказу с учетом специфики и нюансов деятельнос</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="col-6">
+        <div class="media">
+          <img width="50" src="images/favorite.png" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+         
+            <p class="mb-0">Цены соответствуют объему и сложности работ, наши заказчики не переплачивают</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+</section>
+
+<section id="callus" class="callus">
+                <div class="container">
+                    
+                    <div class="row">
+
+                      <div class="col-md-9">
+                         <div class="row">
+                           <div class="col-md-2">
+                             <img src="images/callback-circle.png" width="80" alt="">
+                           </div>
+                           <div class="col-md-10">
+                            <h3 style="color:#fff">Если Вы хотите узнать больше о наших услугах напишите нам</h3>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="col-md-3">
+                        <button type="button" class="btn btn-warning">Заказать звонок</button>
+                      </div>
+                    </div>
+                        
+                    
+                </div>
+ </section>
+
+
+
 <section class="section-footer">
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3">
-      <h3 class="footer-title">Footer block title</h3>
-      <ul class="footer-ul-bl">
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
+      <h3 class="footer-title">Наши услуги</h3>
+      <ul class="footer-ul-bl flist">
+       <li><span style="color:red !important"><a href="" alt="">SEO продвижение сайтов</a></span></li>
+       <li><span><a href="" alt="">Создание сайтов</a></span></li>
+       <li><span><a href="" alt="">Создание семантического ядра</a></span></li>
+       <li><span><a href="" alt="">Аудит сайта</a></span></li>
+       <li><span><a href="" alt="">Карта сайта</a></span></li>
+       
       </ul>
     </div>
     <div class="col-md-3">
-      <h3 class="footer-title">Footer block title</h3>
-      <ul class="footer-ul-bl">
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
+      <h3 class="footer-title">Страницы</h3>
+      <ul class="footer-ul-bl flist">
+        <li><span><a href="" alt="">Главная</a></span></li>
+        <li><span><a href="" alt="">Портфолио</a></span></li>
+        <li><span><a href="" alt="">Статьи</a></span></li>
+        <li><span><a href="" alt="">Контакты</a></span></li>
+        
       </ul>
     </div>
     
     <div class="col-md-3">
-      <h3 class="footer-title">Footer block title</h3>
-      <ul class="footer-ul-bl">
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
+      <h3 class="footer-title">Последние статьи</h3>
+      <ul class="list-unstyled fnlist">
+        <li class="media footer-news-li">
+    <img width="70" src="https://kaospilotradar.dk/wp-content/uploads/2018/09/amaliehbarfod-27-of-29-770x514.jpg" class="mr-3" alt="...">
+    <div class="media-body">
+      <a href="" alt="">Заголовок статьи</a>
+     </div>
+  </li>
+
+   <li class="media footer-news-li">
+    <img width="70" src="https://kaospilotradar.dk/wp-content/uploads/2018/09/amaliehbarfod-27-of-29-770x514.jpg" class="mr-3" alt="...">
+    <div class="media-body">
+      <a href="" alt="">Заголовок статьи</a>
+     </div>
+  </li>
+
+   <li class="media footer-news-li">
+    <img width="70" src="https://kaospilotradar.dk/wp-content/uploads/2018/09/amaliehbarfod-27-of-29-770x514.jpg" class="mr-3" alt="...">
+    <div class="media-body">
+      <a href="" alt="">Заголовок статьи</a>
+     </div>
+  </li>
+
+
+        
       </ul>
     </div>
   
     <div class="col-md-3">
-      <h3 class="footer-title">Footer block title</h3>
-      <ul class="footer-ul-bl">
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
-        <li>Link1</li>
+      <h3 class="footer-title">Свяжитесь с нами</h3>
+      <ul class="list-unstyled fnlist" style="padding-left:0px !important">
+        <li><span><i style="color:#555;" class="flaticon-address"></i> Москва, ул.Новослободская</span></li>
+        <li><span><i style="color:#555;" class="flaticon-phone-ringing"></i> +7 (985) 615-95-65</span></li>
+        <li><span><i style="color:#555;" class="flaticon-email"></i> borq_10@mail.ru</span></li>
+        
       </ul>
     </div>
     
@@ -317,7 +420,7 @@
       <div class="col-sm-12">
         <div class="footer-bottom">
           <center>
-            <p>&COPY; 2020 | All rights reserved. | <a href="https://alseo.ru/" target="_blank">alseo.ru</a></p>
+            <p style="color:#333;">&COPY; 2020 | Все права защищены. | <a href="https://alseo.ru/" target="_blank">alseo.ru</a></p>
           </center>
           
         </div>
